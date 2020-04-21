@@ -26,6 +26,7 @@ pipeline {
                 sh './jenkins/scripts/kill.sh'
                 sh'Test'
                 sh'Test1'
+                sh'Test2'
             }
         }
     }
